@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Sports - Shop</title>
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+
+    <!-- Upper Header -->
+    <div class="upper-header">
+        <p>🔥 Welcome to NextGen Sports - Gear Up for Victory! 🔥</p>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="logo">
+            <a href="home.html">
+                <img src="logo.png" alt="NextGen Sports Logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    
+    
+    
+      <div class="category-banner">
+       
+    <p>From the thrill of cricket to the excitement of football, we have everything you need to gear up and play your best game. Choose your favorite sport and explore top-quality equipment tailored just for you.</p>
+</div>
+
+
+
+
+
+
+  
+
+  <!-- ======= Welcome Banner ======= -->
+  <div class="banner">
+  <p>🔥 Explore Sports Products at NextGen Sports! 🔥</p>
+  <div class="offer">Limited Time Offer: Flat 20% OFF on All Products!</div>
+</div>
+
+
+  <!-- ======= Category Filter ======= -->
+<!-- Category Filter Section -->
+<section class="category-filter">
+  <div class="filter-heading">
+    <h3>Select Your Game Category</h3>
+    <p>Choose your favorite sport & shop the best gear!</p>
+  </div>
+  <div class="filter-select">
+    <label for="category">Category:</label>
+    <select id="category" onchange="filterProducts()">
+      <option value="all">All Categories</option>
+      <option value="cricket">Cricket</option>
+      <option value="football">Football</option>
+      <option value="badminton">Badminton</option>
+      <option value="basketball">Basketball</option>
+      <option value="gym">Gym & Fitness</option>
+    </select>
+  </div>
+</section>
+
+
+
+  <!-- ======= Product Section ======= -->
+  <section class="products" id="product-list">
+    <!-- Products will be loaded here by JS -->
+  </section>
+  <br /><br /><br />
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <p>&copy; 2025 NextGen Sports. All rights reserved.</p>
+    <a href="about.html">About Us</a> |
+    <a href="contact.html">Contact Us</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
